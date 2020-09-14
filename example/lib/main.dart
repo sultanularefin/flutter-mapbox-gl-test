@@ -33,6 +33,7 @@ class MapsDemo extends StatelessWidget {
   //FIXME: Add your Mapbox access token here
   static const String ACCESS_TOKEN = "YOUR_TOKEN_HERE";
 
+  // 2 invoked by 1 in build(BuildContext....)....
   void _pushPage(BuildContext context, ExamplePage page) async {
     if (!kIsWeb) {
       final location = Location();

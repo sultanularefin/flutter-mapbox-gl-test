@@ -10,3 +10,11 @@ abstract class ExamplePage extends StatelessWidget {
   final Widget leading;
   final String title;
 }
+
+
+// abstract class ExamplePage extends StatelessWidget {
+//   const ExamplePage(this.leading1, this.title1);
+//
+//   final Widget leading1;
+//   final String title1;
+// }

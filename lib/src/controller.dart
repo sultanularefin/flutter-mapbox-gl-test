@@ -522,6 +522,10 @@ class MapboxMapController extends ChangeNotifier {
   ///
   /// The returned [Future] completes once listeners have been notified.
   Future<void> updateCircle(Circle circle, CircleOptions changes) async {
+
+    print('circle: $circle');
+    print('changes: $changes');
+
     assert(circle != null);
     assert(_circles[circle.id] == circle);
     assert(changes != null);

@@ -1,0 +1,3 @@
+[submodule "flutter_google_map"]
+	path = flutter_google_map
+	url = https://github.com/sultanularefin/flutter_google_map.git
